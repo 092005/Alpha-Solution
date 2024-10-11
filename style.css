@@ -1,0 +1,32 @@
+.selectBox {
+    width: 100%;
+    padding: 14px; /* Slightly more padding for better touch support */
+    margin-bottom: 16px; /* More space below for separation */
+    border: 1px solid #bbb; /* Softer border color */
+    border-radius: 10px; /* Increased border-radius for a rounder look */
+    background-color: #f0f8ff; /* Lighter background for a softer look */
+    color: #333; 
+    font-size: 16px;
+    font-weight: 500; /* Slightly bolder text */
+    transition: all 0.3s ease; /* Transition on multiple properties */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    cursor: pointer;
+}
+
+.selectBox:hover {
+    border-color: #45d3d6; /* Change border color on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow on hover */
+}
+
+.selectBox:focus {
+    outline: none;
+    border-color: #45d3d6;
+    box-shadow: 0 0 8px rgba(69, 211, 214, 0.6); /* Slightly stronger glow effect */
+    background-color: #e7f9ff; /* Change background color on focus */
+}
+
+.selectBox option {
+    background-color: #f8fcff; /* Very light background for options */
+    color: #333;
+    padding: 10px; /* Additional padding for options */
+}
